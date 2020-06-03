@@ -1,6 +1,7 @@
 console.log("tsm")
 
 const someObj={
+    //* makes it a generator
     *generator(){
         yield 'a',
         yield 'b'
