@@ -41,6 +41,7 @@ async function runThroughIt(generator) {
     //prints the value from the first fetch.
     let stepOne = await generator.next();
     console.log("res from step 1! ", stepOne);
+    //prints the value from the 2nd fetch.
     let stepTwo = await generator.next()
     console.log("res from step 2: ", stepTwo);
 
